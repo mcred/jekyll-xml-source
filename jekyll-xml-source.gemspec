@@ -9,4 +9,6 @@ Gem::Specification.new do |s|
     s.files       = ["jekyll_xml_source.rb"]
     s.homepage    = 'https://github.com/mcred/jekyll-xml-source/'
     s.license       = 'MIT'
+    s.add_runtime_dependency 'json'
+    s.add_runtime_dependency 'activesupport'
   end
